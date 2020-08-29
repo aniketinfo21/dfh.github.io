@@ -172,9 +172,7 @@ button:focus {
 	opacity: 1;
 }
 
-img:hover{
-	transform: scale(1.1);
-}
+
 
 
 /*------------------------------------------------------------------ 
@@ -340,6 +338,10 @@ a:hover,a:focus {
 
 .heading_main.text_align_left {
     justify-content: flex-start;
+}
+
+.heading_main.text_align_right {
+    justify-content: flex-end;
 }
 
 .padding_top_0 {
@@ -665,6 +667,10 @@ a.navbar-brand {
 
 .paddding_left_15 {
 	padding-left: 15px;
+}
+
+.paddding_right_15 {
+	padding-right: 15px;
 }
 
 button#sidebarCollapse {
@@ -2189,10 +2195,11 @@ ul.social_icon li {
 }
 
 .story_section .white_bg {
+	border: 2px solid pink;
     background: #fff;
     width: 90%;
     margin: 0 5%;
-    box-shadow: 0 0 25px 0 rgba(0,0,0,.1);
+    box-shadow: 0 0 25px 0 #888888;
     padding: 40px 30px;
 }
 
